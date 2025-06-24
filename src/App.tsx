@@ -4,6 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { LanguageProvider } from "./contexts/LanguageContext";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -31,33 +32,35 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/baptism" element={<Baptism />} />
-          <Route path="/mothers-day" element={<MothersDay />} />
-          <Route path="/christmas" element={<Christmas />} />
-          <Route path="/communion" element={<Communion />} />
-          <Route path="/baby-shower" element={<BabyShower />} />
-          <Route path="/anniversary" element={<Anniversary />} />
-          <Route path="/valentines-day" element={<ValentinesDay />} />
-          <Route path="/easter" element={<Easter />} />
-          <Route path="/graduation" element={<Graduation />} />
-          <Route path="/engagement" element={<Engagement />} />
-          <Route path="/new-year" element={<NewYear />} />
-          <Route path="/retirement" element={<Retirement />} />
-          <Route path="/casual-gifts" element={<CasualGifts />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/shipping-policy" element={<ShippingPolicy />} />
-          <Route path="/refund-policy" element={<RefundPolicy />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <LanguageProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/baptism" element={<Baptism />} />
+            <Route path="/mothers-day" element={<MothersDay />} />
+            <Route path="/christmas" element={<Christmas />} />
+            <Route path="/communion" element={<Communion />} />
+            <Route path="/baby-shower" element={<BabyShower />} />
+            <Route path="/anniversary" element={<Anniversary />} />
+            <Route path="/valentines-day" element={<ValentinesDay />} />
+            <Route path="/easter" element={<Easter />} />
+            <Route path="/graduation" element={<Graduation />} />
+            <Route path="/engagement" element={<Engagement />} />
+            <Route path="/new-year" element={<NewYear />} />
+            <Route path="/retirement" element={<Retirement />} />
+            <Route path="/casual-gifts" element={<CasualGifts />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+            <Route path="/shipping-policy" element={<ShippingPolicy />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </LanguageProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
