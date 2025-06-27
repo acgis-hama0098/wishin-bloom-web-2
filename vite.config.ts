@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "./",
+  base: "/wishin-bloom-web-2/",
   server: {
     host: "::",
     port: 8080,
