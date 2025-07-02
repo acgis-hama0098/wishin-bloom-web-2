@@ -1,0 +1,192 @@
+.occasion-hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.occasion-hero h1 {
+  font-size: 3rem;
+  color: var(--charcoal-gray);
+  margin-bottom: 1.5rem;
+}
+
+.occasion-content {
+  display: block;
+}
+
+.occasion-content .occasion-details {
+  margin-top: 3rem;
+}
+
+.occasion-details h2 {
+  color: var(--soft-teal);
+  margin-bottom: 2rem;
+}
+
+.detail-list {
+  margin-bottom: 2rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-icon {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+}
+
+.detail-item h4 {
+  color: var(--charcoal-gray);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.detail-item p {
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.occasion-services {
+  text-align: center;
+}
+
+.occasion-services h2 {
+  color: var(--charcoal-gray);
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+.service-item h4 {
+  color: var(--dusty-rose-dark);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.service-item p {
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.occasion-gallery {
+  width: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.gallery-item {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery-item-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.gallery-item-content h4 {
+  color: var(--dusty-rose-dark);
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.gallery-item-content p {
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.gallery-item-content .btn {
+  background-color: var(--soft-teal);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.gallery-item-content .btn:hover {
+  background-color: var(--dusty-rose-dark);
+}
+
+/* Responsive design */
+@media (max-width: 968px) {
+  .occasion-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .occasion-hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .occasion-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .service-item {
+    padding: 1.5rem;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .gallery-item img {
+    height: 200px;
+  }
+  
+  .gallery-item-content {
+    padding: 1rem;
+  }
+}

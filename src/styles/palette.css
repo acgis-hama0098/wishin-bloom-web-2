@@ -1,0 +1,30 @@
+
+:root {
+  --dusty-rose: #D4A5A5;
+  --soft-teal: #70A9A1;
+  --warm-taupe: #BFA6A0;
+  --blush-beige: #F2D8C2;
+  --charcoal-gray: #4B4B4B;
+  
+  /* Additional shades for better design flexibility */
+  --dusty-rose-light: #E2C2C2;
+  --dusty-rose-dark: #C68E8E;
+  --soft-teal-light: #8BB7B0;
+  --soft-teal-dark: #5A8B84;
+  --warm-taupe-light: #CDB8B2;
+  --warm-taupe-dark: #A8918B;
+  --blush-beige-light: #F7E5D4;
+  --blush-beige-dark: #EDCBB0;
+  --charcoal-gray-light: #6B6B6B;
+  --charcoal-gray-dark: #2B2B2B;
+  
+  /* Text colors */
+  --text-primary: var(--charcoal-gray);
+  --text-secondary: var(--warm-taupe-dark);
+  --text-light: #FFFFFF;
+  
+  /* Background colors */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: var(--blush-beige);
+  --bg-accent: var(--dusty-rose-light);
+}
