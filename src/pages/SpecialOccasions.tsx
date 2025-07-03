@@ -1,15 +1,60 @@
+// import React from 'react';
+// import OccasionTemplate from '../components/OccasionTemplate';
+// import { useOccasionData } from '../hooks/useOccasionData';
+
+// const SpecialOccasions: React.FC = () => {
+//   const data = useOccasionData('special-occasions');
+  
+//   if (!data) {
+//     return <div>Occasion data not found</div>;
+//   }
+
+//   return <OccasionTemplate data={data} />;
+// };
+
+// export default SpecialOccasions;
+
+
 import React from 'react';
-import OccasionTemplate from '../components/OccasionTemplate';
-import { useOccasionData } from '../hooks/useOccasionData';
+import './OccasionPage.css';
 
 const SpecialOccasions: React.FC = () => {
-  const data = useOccasionData('special-occasions');
-  
-  if (!data) {
-    return <div>Occasion data not found</div>;
-  }
+  const imageList = Array.from({ length: 20 }, (_, i) => ({
+    src: `/wishinbloom/images/special-occasions/img${i + 1}.jpg`,
+  }));
 
-  return <OccasionTemplate data={data} />;
+  return (
+    <div className="occasion-page">
+      <section className="section">
+        <div className="container">
+          <div className="occasion-hero">
+            <h1>Special Occasions</h1>
+            <p className="lead">
+              Celebrate life’s unique moments with personalized arrangements for every special occasion.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-alt">
+        <div className="container">
+          <div className="occasion-content">
+            <div className="occasion-gallery">
+              <div className="gallery-grid">
+                {imageList.map((img, index) => (
+                  <div className="gallery-item" key={index}>
+                    <div className="image-wrapper">
+                      <img src={img.src} alt={`Special Occasion ${index + 1}`} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default SpecialOccasions;
