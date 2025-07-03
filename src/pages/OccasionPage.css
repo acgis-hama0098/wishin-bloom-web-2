@@ -9,12 +9,13 @@
 .occasion-hero {
   text-align: center;
   margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 .occasion-hero h1 {
   font-size: 3rem;
   color: #96b2ad;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .occasion-content {
