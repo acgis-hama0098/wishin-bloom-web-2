@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const Halloween: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/halloween/img${i + 1}.jpg`,
+    src: `/images/halloween/img${i + 1}.jpg`,
   }));
 
   return (

@@ -19,7 +19,7 @@ import './OccasionPage.css';
 
 const Anniversary: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/anniversary/img${i + 1}.jpg`,
+    src: `/images/anniversary/img${i + 1}.jpg`,
   }));
 
   return (

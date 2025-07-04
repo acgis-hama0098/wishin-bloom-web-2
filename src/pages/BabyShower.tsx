@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const BabyShower: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/babyshower/img${i + 1}.jpg`,
+    src: `/images/baby-shower/img${i + 1}.jpg`,
   }));
 
   return (

@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const Easter: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/easter/img${i + 1}.jpg`,
+    src: `/images/easter/img${i + 1}.jpg`,
   }));
 
   return (

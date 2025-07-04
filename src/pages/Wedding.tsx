@@ -224,7 +224,7 @@ import './OccasionPage.css';
 
 const Wedding: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/wedding/img${i + 1}.jpg`,
+    src: `/images/wedding/img${i + 1}.jpg`,
   }));
 
   return (

@@ -19,7 +19,7 @@ import './OccasionPage.css';
 
 const Birthday: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/birthday/img${i + 1}.jpg`,
+    src: `/images/birthday/img${i + 1}.jpg`,
   }));
 
   return (

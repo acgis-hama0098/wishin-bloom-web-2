@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const CanadaDay: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/canadaday/img${i + 1}.jpg`,
+    src: `/images/canada-day/img${i + 1}.jpg`,
   }));
 
   return (

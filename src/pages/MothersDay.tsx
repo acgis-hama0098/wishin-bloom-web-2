@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const MothersDay: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/mothersday/img${i + 1}.jpg`,
+    src: `/images/mothers-day/img${i + 1}.jpg`,
   }));
 
   return (

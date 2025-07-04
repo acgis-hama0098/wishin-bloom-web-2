@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const Thanksgiving: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/thanksgiving/img${i + 1}.jpg`,
+    src: `/images/thanksgiving/img${i + 1}.jpg`,
   }));
 
   return (

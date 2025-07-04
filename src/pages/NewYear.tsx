@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const NewYear: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/newyear/img${i + 1}.jpg`,
+    src: `/images/new-year/img${i + 1}.jpg`,
   }));
 
   return (

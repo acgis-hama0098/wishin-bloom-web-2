@@ -62,7 +62,7 @@ import './OccasionPage.css';
 
 const CasualGift: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/casual/img${i + 1}.jpg`,
+    src: `/images/casual-gift/img${i + 1}.jpg`,
   }));
 
   return (
