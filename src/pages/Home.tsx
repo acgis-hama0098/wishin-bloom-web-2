@@ -4,7 +4,13 @@ import Slideshow from '../components/Slideshow';
 import SEO from '../components/SEO';
 import './Home.css';
 const Home: React.FC = () => {
-  const featuredImages = ['https://images.unsplash.com/photo-1500673922987-e212871fec22?w=800&h=600&fit=crop&auto=format', 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop&auto=format', 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop&auto=format'];
+  const featuredImages = [
+  '/images/home/slide1.jpg',
+  '/images/home/slide2.jpg',
+  '/images/home/slide3.jpg',
+  '/images/home/slide4.jpg',
+  '/images/home/slide5.jpg',
+];
   return (
     <>
       <SEO 

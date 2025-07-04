@@ -5,12 +5,12 @@ import './Hero.css';
 
 const Hero: React.FC = () => {
   const heroImages = [
-    'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1200&h=600&fit=crop&auto=format',
-    'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&h=600&fit=crop&auto=format',
-    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=600&fit=crop&auto=format',
-    'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&h=600&fit=crop&auto=format',
-    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=600&fit=crop&auto=format'
-  ];
+  '/images/home/slide1.jpg',
+  '/images/home/slide2.jpg',
+  '/images/home/slide3.jpg',
+  '/images/home/slide4.jpg',
+  '/images/home/slide5.jpg',
+];
 
   return (
     <section className="hero">
