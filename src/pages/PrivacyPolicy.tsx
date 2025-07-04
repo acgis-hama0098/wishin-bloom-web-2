@@ -22,7 +22,7 @@ const PrivacyPolicy: React.FC = () => {
             <h2>Information We Collect</h2>
             <ul>
               <li>Personal information you provide when creating an account</li>
-              <li>Order and payment information for purchases</li>
+              <li>Order information for purchases</li>
               <li>Communication preferences and contact details</li>
               <li>Website usage data and analytics</li>
             </ul>

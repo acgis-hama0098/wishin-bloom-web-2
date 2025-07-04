@@ -21,7 +21,7 @@ const ReturnPolicy: React.FC = () => {
           <div className="policy-content">
             <h2>Return Eligibility</h2>
             <ul>
-              <li>Items must be returned within 30 days of purchase</li>
+              <li>Items must be returned within 5 days of purchase</li>
               <li>Items must be in original condition and packaging</li>
               <li>Custom or personalized items cannot be returned</li>
               <li>Sale items are final sale unless defective</li>
