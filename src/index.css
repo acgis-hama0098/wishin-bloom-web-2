@@ -104,3 +104,8 @@
     color: hsl(var(--foreground));
   }
 }
+
+.values {
+  border-top: 4px solid #e0b1cb;
+  padding-top: 2rem;
+}

@@ -35,14 +35,14 @@ Beyond our love for design, we believe in giving back. Our small business proudl
 Every item we make carries a story : ours, and now, yours. Thank you for letting us be a part of your beautiful moments.</p>
             </div>
             
-            <div className="about-image">
-              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop&auto=format" alt="Mother and daughter working together on handmade event decorations and planning materials" />
-            </div>
+            {/* <div className="about-image">
+              <img src="/images/about/img1.jpg" alt="Mother and daughter working together on handmade event decorations and planning materials" />
+            </div> */}
           </div>
         </div>
       </section>
 
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <h2>What We Do</h2>
           <div className="services-grid">
@@ -79,7 +79,7 @@ Every item we make carries a story : ours, and now, yours. Thank you for letting
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section section-alt">
         <div className="container">
