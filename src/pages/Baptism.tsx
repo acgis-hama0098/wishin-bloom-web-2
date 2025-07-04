@@ -145,7 +145,7 @@ import './OccasionPage.css';
 
 const Baptism: React.FC = () => {
   const imageList = Array.from({ length: 20 }, (_, i) => ({
-    src: `/wishinbloom/images/baptism/img${i + 1}.jpg`,
+    src: `/images/baptism/img${i + 1}.jpg`,
   }));
 
   return (
