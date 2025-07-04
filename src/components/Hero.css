@@ -83,7 +83,6 @@
 @media (max-width: 768px) {
   .hero {
     padding: 2rem 0;
-    min-height: auto;
   }
   
   .hero-content {
