@@ -119,7 +119,7 @@ const Header: React.FC = () => {
             className="hamburger"
             onClick={toggleMenu}
             aria-label="Toggle navigation menu"
-            aria-expanded={isMenuOpen}
+            aria-expanded={isMenuOpen ? true : false}
           >
             <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
             <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
