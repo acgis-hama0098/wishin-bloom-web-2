@@ -25,9 +25,9 @@ const Hero: React.FC = () => {
             From intimate gatherings to grand celebrations, we help you create 
             unforgettable memories for life's most precious occasions.
           </p>
-          <div className="hero-buttons">
+          {/* <div className="hero-buttons">
             <a href="/learn-more" className="btn btn-secondary">Learn More</a>
-          </div>
+          </div> */}
         </div>
         
         <div className="hero-slideshow">
