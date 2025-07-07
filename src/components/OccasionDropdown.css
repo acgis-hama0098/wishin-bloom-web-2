@@ -1,6 +1,7 @@
 
 .occasion-dropdown {
   position: relative;
+  
 }
 
 .dropdown-trigger {
@@ -10,11 +11,12 @@
   padding: 0.5rem 1rem;
   background: none;
   border: none;
-  color: var(--text-primary);
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   border-radius: 6px;
   transition: all 0.3s ease;
+  color: var(--dusty-rose-light)
 }
 
 .dropdown-trigger:hover {
@@ -25,6 +27,7 @@
 .dropdown-arrow {
   font-size: 0.8rem;
   transition: transform 0.3s ease;
+  color: var(--dusty-rose-light)
 }
 
 .dropdown-arrow.open {
@@ -51,6 +54,7 @@
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  
 }
 
 .dropdown-content {

@@ -1,7 +1,7 @@
 
 .hero {
   padding: 4rem 0;
-  background: linear-gradient(135deg, var(--blush-beige) 0%, var(--dusty-rose-light) 100%);
+  background: linear-gradient(135deg, var(--blush-beige) 0%, var(--dusty-rose-light) 80%, var(--dusty-rose-light) 100%);
   min-height: 70vh;
   display: flex;
   align-items: center;

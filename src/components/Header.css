@@ -5,7 +5,9 @@
   /* background: linear-gradient(135deg, #e8a8ac 0%, #90b2ab 100%); */
   /* background: linear-gradient(135deg, #f7e4e1 0%, #ffffff 100%); */
   /* background: linear-gradient(135deg, #fceae8 0%, #f6c6c2 100%); */
-  background: linear-gradient(135deg, #e8a8ac 0%, #90b2ab 80%, #90b2ab 100%);
+  /* background: linear-gradient(135deg, #e8a8ac 0%, #90b2ab 80%, #90b2ab 100%); */
+  /* background-color: #90b2ab; */
+  background-color: var(--charcoal-gray);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -27,8 +29,9 @@
 
 .logo-text {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
+  color: var(--dusty-rose-light);
 }
 .logo-container {
   display: flex;
@@ -57,7 +60,7 @@
 }
 
 .nav-link {
-  color: var(--text-primary);
+  color: var(--dusty-rose-light);
   font-weight: 500;
   text-decoration: none;
   padding: 0.5rem 1rem;

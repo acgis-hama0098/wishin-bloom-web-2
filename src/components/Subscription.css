@@ -1,5 +1,7 @@
 .subscription {
-  background: #ecb9ba; /* soft rose background */
+  /* background: var(--dusty-rose-light); soft rose background */
+  background: linear-gradient(135deg, var(--blush-beige) 0%, var(--dusty-rose-light) 80%, var(--dusty-rose-light) 100%);
+
   padding: 3rem 2rem;
   text-align: center;
   border-top: 2px solid #90b2ab;
