@@ -154,6 +154,9 @@ const Baptism: React.FC = () => {
         <div className="container">
           <div className="occasion-hero">
             <h1>Baptism Celebrations</h1>
+            <p className="lead">
+              Celebrate love with unforgettable moments, elegant settings, and timeless memories.
+            </p>
           </div>
         </div>
       </section>
