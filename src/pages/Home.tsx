@@ -4,7 +4,7 @@ import Slideshow from '../components/Slideshow';
 import SEO from '../components/SEO';
 import './Home.css';
 import Subscription from '../components/Subscription';
-import Testimonials from '../components/Testimonials';
+// import Testimonials from '../components/Testimonials';
 
 const Home: React.FC = () => {
   const featuredImages = [
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
         {/* 👇 Add your subscription form here */}
         <Subscription />
-        <Testimonials />
+        {/* <Testimonials /> */}
 
       </div>
     </>

@@ -27,7 +27,7 @@
 }
 
 .brand-name {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 700;
   color: var(--soft-teal);
   line-height: 1.1;
@@ -36,7 +36,7 @@
 }
 
 .brand-slogan {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: var(--warm-taupe-dark);
   font-style: italic;
   font-weight: 400;

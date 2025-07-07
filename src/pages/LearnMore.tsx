@@ -23,7 +23,7 @@ const LearnMore: React.FC = () => {
               </p>
               <p>
                 Our mission is to transform your vision into reality, providing comprehensive event planning 
-                services that take care of every detail so you can focus on what matters most - enjoying 
+                services that take care of every detail so you can focus on what matters most enjoying 
                 your special day with loved ones.
               </p>
             </div>
@@ -40,11 +40,7 @@ const LearnMore: React.FC = () => {
                 <h3>Event Planning</h3>
                 <p>Complete event coordination from concept to execution, ensuring every detail is perfectly managed for your special day.</p>
               </div>
-              <div className="service-card">
-                <div className="service-icon">🏛️</div>
-                <h3>Venue Selection</h3>
-                <p>Expert guidance in finding the perfect venue that matches your vision, style, and budget requirements.</p>
-              </div>
+              
               <div className="service-card">
                 <div className="service-icon">🌸</div>
                 <h3>Custom Floral Arrangements</h3>
@@ -60,41 +56,46 @@ const LearnMore: React.FC = () => {
                 <h3>Personalized Gifts</h3>
                 <p>Thoughtful, custom gift solutions that add a personal touch and create lasting memories for your guests.</p>
               </div>
+              {/* <div className="service-card">
+                <div className="service-icon">🏛️</div>
+                <h3>Venue Selection</h3>
+                <p>Expert guidance in finding the perfect venue that matches your vision, style, and budget requirements.</p>
+              </div> */}
             </div>
           </div>
         </section>
 
-        {/* Client Testimonials */}
+        {/*Client Testimonials*/}
         <section className="section testimonials-section">
           <div className="container">
             <h2>What Our Clients Say</h2>
             <div className="testimonials-grid">
               <div className="testimonial-card">
-                <p>"WishIn Bloom made our wedding absolutely magical. Every detail was perfect, from the stunning floral arrangements to the seamless coordination. We couldn't have asked for a better team!"</p>
+                <p>'WishIn Bloom made my daughter’s birthday feel like a fairytale. Every detail was perfect.'</p>
                 <div className="client-info">
-                  <strong>Sarah & Michael</strong>
-                  <span>Wedding Celebration</span>
+                  <strong>Aida M. </strong>
+                  <span>Birthday Celebration</span>
                 </div>
               </div>
               <div className="testimonial-card">
-                <p>"The team at WishIn Bloom transformed our daughter's birthday party into a fairy tale. The attention to detail and personalized touches made it a day she'll never forget."</p>
+                <p>'WishIn Bloom helped us honour our loved one’s memory with grace and beauty.'</p>
                 <div className="client-info">
-                  <strong>Jennifer Thompson</strong>
-                  <span>Birthday Party</span>
+                  <strong>Najwa B.</strong>
+                  <span>Memorial</span>
                 </div>
               </div>
               <div className="testimonial-card">
-                <p>"Professional, creative, and incredibly organized. WishIn Bloom took care of everything for our anniversary celebration, allowing us to simply enjoy our special moment."</p>
+                <p>'I’ve never seen a more thoughtful xmas gift arrangement.'</p>
                 <div className="client-info">
-                  <strong>Robert & Linda Chen</strong>
-                  <span>Anniversary Celebration</span>
+                  <strong>Val S.</strong>
+                  <span>Christmas</span>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Gallery Preview */}
+        {/* Gallery Preview
         <section className="section section-alt gallery-section">
           <div className="container">
             <h2>Gallery Preview</h2>
@@ -126,9 +127,9 @@ const LearnMore: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        {/* Contact Info */}
+        {/* Contact Info
         <section className="section contact-info-section">
           <div className="container">
             <h2>Get in Touch</h2>
@@ -156,11 +157,11 @@ const LearnMore: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* FAQ Section */}
-        <section className="section section-alt faq-section">
-          <div className="container">
+        {/* <section className="section section-alt faq-section"> */}
+          {/* <div className="container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-grid">
               <div className="faq-item">
@@ -177,7 +178,7 @@ const LearnMore: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </>
   );
