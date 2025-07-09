@@ -57,13 +57,22 @@
 // };
 
 // export default MothersDay;
-import React from 'react';
+//  
+import React, { useState } from 'react';
 import './OccasionPage.css';
 
 const MothersDay: React.FC = () => {
-  const imageList = Array.from({ length: 20 }, (_, i) => ({
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState(12); // Start with 12 images
+
+  const totalImages = 50; // Adjust this to match your actual image count
+  const imageList = Array.from({ length: totalImages }, (_, i) => ({
     src: `/images/mothers-day/img${i + 1}.jpg`,
   }));
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => Math.min(prev + 12, totalImages));
+  };
 
   return (
     <div className="occasion-page">
@@ -83,18 +92,42 @@ const MothersDay: React.FC = () => {
           <div className="occasion-content">
             <div className="occasion-gallery">
               <div className="gallery-grid">
-                {imageList.map((img, index) => (
+                {imageList.slice(0, visibleCount).map((img, index) => (
                   <div className="gallery-item" key={index}>
                     <div className="image-wrapper">
                       <img src={img.src} alt={`Mother's Day ${index + 1}`} />
+                      <button
+                        className="zoom-button"
+                        onClick={() => setLightboxImage(img.src)}
+                        aria-label="Zoom image"
+                      >
+                        +
+                      </button>
                     </div>
                   </div>
                 ))}
               </div>
+
+              {visibleCount < totalImages && (
+                <div className="load-more-container">
+                  <button className="load-more-button" onClick={handleLoadMore}>
+                    Load More
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </section>
+
+      {lightboxImage && (
+        <div className="lightbox" onClick={() => setLightboxImage(null)}>
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <button className="lightbox-close" onClick={() => setLightboxImage(null)}>×</button>
+            <img src={lightboxImage} alt="Full size" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
