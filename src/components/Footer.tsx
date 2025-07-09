@@ -13,7 +13,10 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Occasions</h3>
-            <p>Celebrating life's special moments with you.</p>
+            <p>We are in the early stages of launching our business.
+               Some occasion pages are still being populated, 
+               and will be updated with new content soon. 
+              Thank you for your patience and support as we continue to grow.</p>
           </div>
           
           <div className="footer-section">
