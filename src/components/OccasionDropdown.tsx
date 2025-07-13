@@ -8,24 +8,23 @@ interface OccasionDropdownProps {
 }
 
 const occasions = [
+  { name: 'Anniversary', route: '/occasion/anniversary' },
+  { name: 'Baby Shower', route: '/occasion/baby-shower' },
   { name: 'Baptism', route: '/occasion/baptism' },
-  { name: 'Wedding', route: '/occasion/wedding' }, 
   { name: 'Birthday', route: '/occasion/birthday' },
-  { name: 'Mother\'s Day', route: '/occasion/mothers-day' },
+  { name: 'Canada Day', route: '/occasion/canada-day' },
+  { name: 'Casual Gift', route: '/occasion/casual-gift' },
   { name: 'Christmas', route: '/occasion/christmas' },
   { name: 'Easter', route: '/occasion/easter' },
-  { name: 'Halloween', route: '/occasion/halloween' },
-  { name: 'Valentine\'s Day', route: '/occasion/valentines-day' },
-  { name: 'Anniversary', route: '/occasion/anniversary' },
   { name: 'Graduation', route: '/occasion/graduation' },
+  { name: 'Halloween', route: '/occasion/halloween' },
+  { name: 'Memorials', route: '/occasion/memorials' },
+  { name: 'Mother\'s Day', route: '/occasion/mothers-day' },
   { name: 'New Year', route: '/occasion/new-year' },
-  { name: 'Baby Shower', route: '/occasion/baby-shower' },
-  { name: 'Casual Gift', route: '/occasion/casual-gift' },
-  { name: 'Canada Day', route: '/occasion/canada-day' },
-  { name: 'Thanksgiving', route: '/occasion/thanksgiving' },
   { name: 'Special Occasions', route: '/occasion/special-occasions' },
-  { name: 'Memorials', route: '/occasion/memorials' } // 👈 Add this line
-
+  { name: 'Thanksgiving', route: '/occasion/thanksgiving' },
+  { name: 'Valentine\'s Day', route: '/occasion/valentines-day' },
+  { name: 'Wedding', route: '/occasion/wedding' }
 ];
 
 const OccasionDropdown: React.FC<OccasionDropdownProps> = ({ onSelect }) => {
