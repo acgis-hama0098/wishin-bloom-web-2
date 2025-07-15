@@ -76,7 +76,8 @@ const Header: React.FC = () => {
           <Link to="/" className="logo" onClick={closeMenu}>
             <div className="logo-container">
               <img
-                src={`${import.meta.env.BASE_URL}images/logo.png`}
+                // src={`${import.meta.env.BASE_URL}images/logo.png`}
+                src={`${import.meta.env.BASE_URL || '/'}images/logo.png`}
                 alt="WishIn Bloom Logo"
                 className="contact-logo"
               />

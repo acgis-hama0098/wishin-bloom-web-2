@@ -17,11 +17,12 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <SEO 
-        title="Home"
-        description="Professional event planning services for weddings, birthdays, anniversaries, and all of life's special occasions. Make every moment memorable with our expert planning team."
-        keywords="event planning, wedding planner, birthday parties, anniversary celebrations, special occasions, event coordinator"
-      />
+      <SEO
+  title="Event Planning & Personalized Gifts | Special Gifts for All Occasions"
+  description="Professional event planning and handcrafted, customized gifts for weddings, birthdays, anniversaries, and every special occasion. Discover meaningful celebrations and thoughtful gifting ideas."
+  keywords="event planning, wedding planner, personalized gifts, custom gifts, special gifts, birthday presents, celebration design, Ottawa event coordinator, gifts for all occasions"
+/>
+
       <div className="home">
         <Hero />
 
