@@ -8,22 +8,22 @@ interface OccasionDropdownProps {
 }
 
 const occasions = [
-  { name: 'Anniversary', route: '/occasion/anniversary' },
-  { name: 'Baby Shower', route: '/occasion/baby-shower' },
+  // { name: 'Anniversary', route: '/occasion/anniversary' },
+  // { name: 'Baby Shower', route: '/occasion/baby-shower' },
   { name: 'Baptism', route: '/occasion/baptism' },
   { name: 'Birthday', route: '/occasion/birthday' },
-  { name: 'Canada Day', route: '/occasion/canada-day' },
+  // { name: 'Canada Day', route: '/occasion/canada-day' },
   { name: 'Casual Gift', route: '/occasion/casual-gift' },
   { name: 'Christmas', route: '/occasion/christmas' },
-  { name: 'Easter', route: '/occasion/easter' },
-  { name: 'Graduation', route: '/occasion/graduation' },
-  { name: 'Halloween', route: '/occasion/halloween' },
+  // { name: 'Easter', route: '/occasion/easter' },
+  // { name: 'Graduation', route: '/occasion/graduation' },
+  // { name: 'Halloween', route: '/occasion/halloween' },
   { name: 'Memorials', route: '/occasion/memorials' },
-  { name: 'Mother\'s Day', route: '/occasion/mothers-day' },
-  { name: 'New Year', route: '/occasion/new-year' },
-  { name: 'Special Occasions', route: '/occasion/special-occasions' },
-  { name: 'Thanksgiving', route: '/occasion/thanksgiving' },
-  { name: 'Valentine\'s Day', route: '/occasion/valentines-day' },
+  // { name: 'Mother\'s Day', route: '/occasion/mothers-day' },
+  // { name: 'New Year', route: '/occasion/new-year' },
+  // { name: 'Special Occasions', route: '/occasion/special-occasions' },
+  // { name: 'Thanksgiving', route: '/occasion/thanksgiving' },
+  // { name: 'Valentine\'s Day', route: '/occasion/valentines-day' },
   { name: 'Wedding', route: '/occasion/wedding' }
 ];
 
