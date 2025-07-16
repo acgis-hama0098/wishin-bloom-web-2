@@ -169,12 +169,23 @@ const Contact: React.FC = () => {
                       value={formData.occasion} 
                       onChange={handleInputChange}
                     >
-                      <option value="">Select an occasion</option>
-                      <option value="wedding">Wedding</option>
-                      <option value="birthday">Birthday</option>
                       <option value="anniversary">Anniversary</option>
-                      <option value="graduation">Graduation</option>
                       <option value="baby-shower">Baby Shower</option>
+                      <option value="baptism">Baptism</option>
+                      <option value="birthday">Birthday</option>
+                      <option value="canada-day">Canada Day</option>
+                      <option value="casual-gift">Casual Gift</option>
+                      <option value="christmas">Christmas</option>
+                      <option value="easter">Easter</option>
+                      <option value="graduation">Graduation</option>
+                      <option value="halloween">Halloween</option>
+                      <option value="memorials">Memorials</option>
+                      <option value="mothers-day">Mother's Day</option>
+                      <option value="new-year">New Year</option>
+                      <option value="special-occasions">Special Occasions</option>
+                      <option value="thanksgiving">Thanksgiving</option>
+                      <option value="valentines-day">Valentine's Day</option>
+                      <option value="wedding">Wedding</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
