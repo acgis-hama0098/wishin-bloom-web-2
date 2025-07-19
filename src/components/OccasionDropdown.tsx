@@ -9,7 +9,7 @@ interface OccasionDropdownProps {
 
 const occasions = [
   { name: 'Anniversary', route: '/occasion/anniversary' },
-  // { name: 'Baby Shower', route: '/occasion/baby-shower' },
+  { name: 'Baby Shower', route: '/occasion/baby-shower' },
   { name: 'Baptism', route: '/occasion/baptism' },
   { name: 'Birthday', route: '/occasion/birthday' },
   // { name: 'Canada Day', route: '/occasion/canada-day' },
