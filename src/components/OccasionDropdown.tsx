@@ -20,7 +20,7 @@ const occasions = [
   // { name: 'Halloween', route: '/occasion/halloween' },
   { name: 'Memorials', route: '/occasion/memorials' },
   // { name: 'Mother\'s Day', route: '/occasion/mothers-day' },
-  // { name: 'New Year', route: '/occasion/new-year' },
+  { name: 'New Year', route: '/occasion/new-year' },
   // { name: 'Special Occasions', route: '/occasion/special-occasions' },
   // { name: 'Thanksgiving', route: '/occasion/thanksgiving' },
   // { name: 'Valentine\'s Day', route: '/occasion/valentines-day' },
