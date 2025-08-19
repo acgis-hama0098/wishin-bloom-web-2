@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   const featuredImages = [
     '/images/home/slide1.jpg',
     '/images/home/slide2.jpg',
-    '/images/home/slide3.jpg',
+    // '/images/home/slide3.jpg',
     '/images/home/slide4.jpg',
     '/images/home/slide5.jpg',
   ];
