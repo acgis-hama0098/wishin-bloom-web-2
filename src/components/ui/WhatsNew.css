@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.whats-new {
+  padding:10px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+}
+
+.whats-new-title {
+  font-size: 8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4b1c4d;
+  font-family: 'Segoe UI', sans-serif; /* Removed Creepster */
+  font-weight: bold;                  /* Optional: adds emphasis */
+}
+/* Spooky pulse animation */
+/* @keyframes spookyPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+} */
+
+.update-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 48px;
+  border-radius: 24px;
+  background-image: url('/images/background/swirl-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Optional overlay to soften the background */
+.update-card::before {
+  display: none;
+}
+
+
+
+/* Ensure content sits above the overlay */
+.update-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.update-card:hover {
+  transform: scale(1.02);
+}
+
+.kit-image {
+  width: 600px;           /* Increased from 400px */
+  max-width: 90vw;        /* Responsive scaling */
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds depth */
+  display: block;
+  margin: 0 auto;
+}
+
+.spooky-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #4b1c4d;
+  margin: 0;
+}
+
+.update-content p {
+  font-size: 2rem;
+font-weight: bold;
+  color: #333;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.whats-new-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;               /* Space between title and card */
+  flex-wrap: wrap;         /* Allows stacking on small screens */
+}
+
+.whats-new-title {
+  font-size: 10rem;         /* Smaller for side layout */
+  color: #4b1c4d;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  max-width: 200px;
+  text-align: left;
+  margin-left: 200px;
+}

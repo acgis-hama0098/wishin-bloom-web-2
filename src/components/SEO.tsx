@@ -13,7 +13,8 @@ const SEO: React.FC<SEOProps> = ({
   title, 
   description, 
   keywords = '',
-  image = 'https://lovable.dev/opengraph-image-p98pqg.png',
+  // image = 'https://lovable.dev/opengraph-image-p98pqg.png',
+  image = 'https://via.placeholder.com/1200x630.png?text=Occasions+Event+Planning',
   url = window.location.href,
   type = 'website'
 }) => {

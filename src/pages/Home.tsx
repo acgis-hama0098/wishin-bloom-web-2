@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import './Home.css';
 import Subscription from '../components/Subscription';
 // import Testimonials from '../components/Testimonials';
+import WhatsNew from '../components/ui/WhatsNew';
 
 const Home: React.FC = () => {
   const featuredImages = [
@@ -25,6 +26,7 @@ const Home: React.FC = () => {
 
       <div className="home">
         <Hero />
+        <WhatsNew />
 
         <section className="section section-alt">
           <div className="container">
