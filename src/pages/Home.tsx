@@ -18,11 +18,17 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <SEO
+      {/* <SEO
   title="Event Planning & Personalized Gifts | Special Gifts for All Occasions"
   description="Professional event planning and handcrafted, customized gifts for weddings, birthdays, anniversaries, and every special occasion. Discover meaningful celebrations and thoughtful gifting ideas."
   keywords="event planning, wedding planner, personalized gifts, custom gifts, special gifts, birthday presents, celebration design, Ottawa event coordinator, gifts for all occasions"
+/> */}
+<SEO
+  title="WishIn Bloom | Personalized Gifts & Custom Creations for Every Occasion"
+  description="Discover handcrafted and personalized gifts for weddings, birthdays, baptisms, anniversaries, holidays, and every special occasion. WishIn Bloom offers meaningful keepsakes, unique gift boxes, and thoughtful creations, with optional event planning support for memorable celebrations."
+  keywords="personalized gifts, custom gifts, handcrafted gifts, unique gifts, Ottawa gift shop, Canadian gift shop, birthday gifts, wedding gifts, baptism keepsakes, anniversary gifts, holiday gifts, Christmas gifts, Mother's Day gifts, Father's Day gifts, special occasion gifts, gift boxes, gift baskets, favors, décor, meaningful keepsakes, thoughtful presents, Ottawa gifts, Ottawa Makers, Ottawa vendors, Do it yourself, DIY gifts, event planning, event support, celebration design, Ottawa event coordinator"
 />
+
 
       <div className="home">
         <Hero />
