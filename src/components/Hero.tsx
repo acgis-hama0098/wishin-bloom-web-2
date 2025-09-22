@@ -22,8 +22,8 @@ const Hero: React.FC = () => {
             <p className="brand-slogan">Where Every Gift Blooms with Meaning.</p>
           </div>
           <p className="hero-description">
-            From intimate gatherings to grand celebrations, we help you create 
-            unforgettable memories for life's most precious occasions.
+            From delicate hands to heartfelt moments
+            we craft treasures that feel like wishes come true.
           </p>
           {/* <div className="hero-buttons">
             <a href="/learn-more" className="btn btn-secondary">Learn More</a>

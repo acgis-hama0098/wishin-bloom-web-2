@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         <Hero />
         {/* <WhatsNew /> */}
 
-        <section className="section section-alt">
+        {/* <section className="section section-alt">
           <div className="container">
             <div className="features">
               <h2>Why Choose Us</h2>
@@ -60,7 +60,32 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <section className="section section-alt">
+  <div className="container">
+    <div className="features">
+      <h2>Why Choose Us</h2>
+      <div className="features-grid">
+        <div className="feature-card">
+          <div className="feature-icon">✨</div>
+          <h3>Handcrafted with Heart</h3>
+          <p>Every piece is made with care, creativity, and a touch of magic.</p>
+        </div>
+        <div className="feature-card">
+          <div className="feature-icon">🎁</div>
+          <h3>Gifts for Every Occasion</h3>
+          <p>From birthdays to quiet moments, we help you celebrate beautifully.</p>
+        </div>
+        <div className="feature-card">
+          <div className="feature-icon">💫</div>
+          <h3>Workshops & Wonder</h3>
+          <p>Inspiring kids and adults through hands-on craft experiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* 👇 Add your subscription form here */}
         <Subscription />
