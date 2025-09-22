@@ -130,14 +130,28 @@ const About: React.FC = () => {
       <SEO
         title="About Us"
         description="Learn about our story, passion for event planning, and commitment to creating memorable celebrations. From handmade gifts to full event coordination, we bring love to every detail."
-        keywords="about us, event planning story, handmade celebrations, sustainable events, community support, family business"
-      />
+        keywords="handmade gifts, custom gifts, personalized gifts, customized gifts, themed gifts, themed table accessories, unique gifts, artisan gifts, handcrafted items, handmade accessories, 
+    gift ideas, thoughtful presents, creative gifts, DIY gifts, small batch gifts, boutique gifts, seasonal gifts, holiday gifts, birthday gifts, anniversary gifts, wedding gifts, baby shower gifts, graduation gifts,
+    retirement gifts, housewarming gifts, Christmas gifts, Valentine's Day gifts, Mother's Day gifts, Father's Day gifts, Easter gifts, New Year gifts, handmade jewelry, handmade home decor, handmade ornaments, 
+    handmade cards, handmade keychains, handmade candles, handmade soaps, handmade bags, handmade hair accessories, handmade plushies, handmade toys, handmade art, handmade prints, handmade embroidery, handmade crochet, 
+    handmade knitwear, handmade wood crafts, handmade resin crafts, handmade clay crafts, handmade paper crafts, handmade textile crafts, handmade floral arrangements, handmade wreaths, handmade bookmarks, handmade magnets, 
+    handmade charms, handmade stickers, handmade packaging, handmade wrapping, handmade tags, handmade keepsakes, handmade mementos, handmade decor, handmade tableware, handmade wall art, handmade signs, handmade centerpieces, 
+    handmade garlands, handmade bunting, handmade party favors, handmade gift sets, handmade bundles, handmade subscription boxes, handmade Canadian gifts, handmade Alberta gifts, handmade Edmonton gifts, handmade local gifts,
+    handmade eco-friendly gifts, handmade sustainable gifts, handmade organic gifts, handmade natural gifts, handmade ethical gifts, handmade zero waste gifts, handmade recycled gifts, handmade upcycled gifts, 
+    handmade minimalist gifts, handmade vintage gifts, handmade rustic gifts, handmade boho gifts, handmade modern gifts, handmade whimsical gifts, handmade romantic gifts, handmade cozy gifts, handmade cute gifts, 
+    handmade elegant gifts, handmade quirky gifts, handmade spiritual gifts, handmade inspirational gifts, handmade motivational gifts, handmade healing gifts, handmade wellness gifts, handmade self-care gifts, 
+    handmade pampering gifts, handmade luxury gifts, handmade budget gifts, handmade affordable gifts, handmade premium gifts, handmade exclusive gifts, handmade one-of-a-kind gifts, handmade limited edition gifts,
+    handmade custom orders, handmade gift shop, handmade online store, handmade ecommerce, handmade crafts, handmade gifting, handmade celebration accessories, handmade occasion decor, handmade party decor, 
+    handmade festive decor, handmade seasonal accessories, handmade all-occasion gifts, craft workshops, DIY workshops, handmade gift workshops, kids craft workshops, adult craft workshops, family craft workshops, 
+    seasonal craft workshops, holiday craft workshops, creative workshops, art and craft classes, crafting classes, beginner craft classes, advanced craft workshops, weekend craft workshops, private craft lessons, 
+    group craft sessions, craft education, teaching crafts, learn to craft, crafting for kids, crafting for adults, hands-on craft activities, interactive craft sessions, craft party workshops, themed craft workshops, 
+    personalized craft classes, community craft events, local craft workshops, Edmonton craft workshops, Alberta craft classes, Canadian craft education" />
 
       <div className="about">
         <section className="section bg-[#a7e3d8]">
           <div className="container bg-[#a7e3d8]/[0.84]">
             <div className="about-hero">
-              <h1>About Occasions</h1>
+              <h1>The Heart Behind the Handmade</h1>
               <p className="lead font-bold">
                 We believe every moment deserves to be celebrated with love, care, and attention to detail.
               </p>

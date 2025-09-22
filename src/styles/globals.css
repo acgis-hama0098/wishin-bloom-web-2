@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--charcoal-gray);
+  color: var(--soft-teal-dark);
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
 }
 
 h3 {
@@ -111,7 +111,7 @@ button {
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   
   h3 {

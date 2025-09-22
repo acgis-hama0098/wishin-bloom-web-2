@@ -7,8 +7,12 @@
 
 .contact-hero h1 {
   font-size: 3rem;
-  color: var(--charcoal-gray);
+  color: var(--soft-teal-dark);
   margin-bottom: 1.5rem;
+  font-size: 4.5rem;
+  letter-spacing: 0.5px;
+font-style: italic;
+
 }
 
 .contact-content {

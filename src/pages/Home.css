@@ -61,7 +61,13 @@
   color: var(--text-secondary);
   line-height: 1.6;
 }
-
+.section-alt {
+  background-image: url('/images/background/swirl-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+}
 /* Responsive design */
 @media (max-width: 968px) {
   .home-content {
