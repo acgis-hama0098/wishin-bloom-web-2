@@ -109,7 +109,7 @@ const Christmas: React.FC = () => {
 
   const totalImages = 50; // Adjust this to match your actual image count
   const imageList = Array.from({ length: totalImages }, (_, i) => ({
-    src: `/wishinbloom/images/christmas/img${i + 1}.jpg`,
+    src: `/images/christmas/img${i + 1}.jpg`,
   }));
 
   const handleLoadMore = () => {
