@@ -40,7 +40,7 @@ const Slideshow: React.FC<SlideshowProps> = ({
 
     const interval = setInterval(nextSlide, autoPlayInterval);
     return () => clearInterval(interval);
-  }, [autoPlay, autoPlayInterval, images.length]);
+  }, [autoPlay, autoPlayInterval, images.length, nextSlide]);
 
   if (!images || images.length === 0) {
     return (
