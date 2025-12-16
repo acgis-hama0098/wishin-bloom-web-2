@@ -17,6 +17,10 @@ const Home: React.FC = () => {
     '/images/home/slide6.jpg',
     '/images/home/slide7.jpg',
     '/images/home/slide8.jpg',
+    '/images/home/slide9.jpg',
+    '/images/home/slide10.jpg',
+    '/images/home/slide11.jpg',
+    '/images/home/slide12.jpg',
   ];
 
   return (
