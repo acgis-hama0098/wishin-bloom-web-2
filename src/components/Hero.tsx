@@ -8,9 +8,9 @@ const Hero: React.FC = () => {
   '/images/home/slide1.jpg',
   '/images/home/slide2.jpg',
   '/images/home/slide3.jpg',
-  '/images/home/slide4.jpg',
-  '/images/home/slide5.jpg',
-  '/images/home/slide6.jpg'
+  // '/images/home/slide4.jpg',
+  // '/images/home/slide5.jpg',
+  // '/images/home/slide6.jpg'
 ];
 
   return (
