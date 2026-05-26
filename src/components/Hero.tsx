@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             we craft treasures that feel like wishes come true.
             <br />
             <span className="hero-highlight">
-              And this week, those wishes come to life in person —
+              This week, our creations come to life in person.
               we’ll be at the ByWard Market from May 27–31.
             </span>
           </p>
