@@ -147,13 +147,11 @@
 }
 
 .hero-highlight {
-  font-weight: 800;
   font-size: 1.5rem;
+  font-weight: 800;
   display: inline-block;
   margin-top: 0.5rem;
+  color: #B84A62; /* highlight color */
 }
 
-.hero-highlight {
-  color: #B84A62; /* highlight color */
-  font-weight: 700;
-}
+
