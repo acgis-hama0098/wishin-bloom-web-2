@@ -24,6 +24,9 @@ const Hero: React.FC = () => {
           <p className="hero-description">
             From delicate hands to heartfelt moments
             we craft treasures that feel like wishes come true.
+            <br />
+              And this week, those wishes come to life in person —
+              we’ll be at the ByWard Market from May 27–31.
           </p>
           {/* <div className="hero-buttons">
             <a href="/learn-more" className="btn btn-secondary">Learn More</a>
