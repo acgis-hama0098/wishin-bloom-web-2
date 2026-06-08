@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const heroImages = [
   '/images/home/slide1.jpg',
   '/images/home/slide2.jpg',
-  '/images/home/slide3.jpg',
+  // '/images/home/slide3.jpg',
   // '/images/home/slide4.jpg',
   // '/images/home/slide5.jpg',
   // '/images/home/slide6.jpg'
@@ -24,11 +24,11 @@ const Hero: React.FC = () => {
           <p className="hero-description">
             From delicate hands to heartfelt moments
             we craft treasures that feel like wishes come true.
-            <br />
+            {/* <br />
             <span className="hero-highlight">
               This week, our creations come to life in person.
               we’ll be at the ByWard Market from May 27–31.
-            </span>
+            </span> */}
           </p>
 
           {/* <div className="hero-buttons">
